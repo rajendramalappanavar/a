@@ -12,11 +12,11 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rajendramalappanavar/newrepo.git"
+    "url": "git+https://github.com/rajendramalappanavar/a.git"
   },
   "author": "",
   "license": "ISC",
