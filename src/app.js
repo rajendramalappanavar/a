@@ -34,7 +34,7 @@ app.get('/about', (req, res) => {
     })
 });
 
-app.post('/help', (req, res) => {
+app.get('/help', (req, res) => {
     res.json("hihihi")
 });
 
