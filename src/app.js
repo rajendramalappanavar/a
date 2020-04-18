@@ -35,7 +35,10 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/help', (req, res) => {
-    res.send("hi")
+     res.render('help', {
+        title: 'Help',
+        name: 'Rajendra'
+    })
 });
 
 app.get('/weather', (req, res) => {
