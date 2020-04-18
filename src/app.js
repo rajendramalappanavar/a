@@ -34,12 +34,8 @@ app.get('/about', (req, res) => {
     })
 });
 
-app.get('/help', (req, res) => {
-    res.render('help', {
-        helpText: req.body,
-        title: 'Help',
-        name: 'Rajendra'
-    })
+app.post('/help', (req, res) => {
+    res.json("hihihi")
 });
 
 app.get('/weather', (req, res) => {
