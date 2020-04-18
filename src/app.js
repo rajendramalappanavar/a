@@ -35,7 +35,7 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/help', (req, res) => {
-    res.json(req.body)
+    res.json("hi")
 });
 
 app.get('/weather', (req, res) => {
