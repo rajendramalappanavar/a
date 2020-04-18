@@ -1,4 +1,4 @@
-const path = require('path');
+.const path = require('path');
 const express = require('express');
 const hbs = require('hbs');
 const geocode = require('./utils/geocode');
@@ -35,7 +35,7 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/help', (req, res) => {
-    res.json("hihihi")
+    res.json(req.body)
 });
 
 app.get('/weather', (req, res) => {
